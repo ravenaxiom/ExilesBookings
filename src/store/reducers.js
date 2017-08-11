@@ -4,10 +4,10 @@ import {ACTIONS} from './../constants/constants';
 import initialState from './initialState';
 
 const baseReducer = function (state = initialState, action) {
-  switch (action) {
+  switch (action.type) {
     case ACTIONS.MY_ACTION: {
       return Object.assign({}, state, {
-        testCounter: state.testCounter += action.value
+        testCounter: state.testCounter += 1
       });
     } break;
 

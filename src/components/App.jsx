@@ -12,7 +12,6 @@ import {myAction} from './../store/actions';
 import './App.scss';
 
 const App = (props) => {
-  console.log('props.myAction = ', props.myAction, props)
   return (
     <div className="App">
       <Button value={`testCounter = ${ props.testCounter}`} action={props.myAction} />
@@ -36,7 +35,7 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    myAction: (value) => dispatch(myAction(value))
+    myAction: () => dispatch(myAction())
   }
 };
 
