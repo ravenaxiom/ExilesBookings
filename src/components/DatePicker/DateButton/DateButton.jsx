@@ -1,18 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import './DayButton.scss';
+import './DateButton.scss';
 
-const DayButton = ({name}) => {
+const DateButton = ({name}) => {
   return (
-    <div className="DayButton">
+    <div className="DateButton">
       {name}
     </div>
   );
 };
 
-DayButton.PropTypes = {
+DateButton.PropTypes = {
   name: PropTypes.string.isRequired
 };
 
-export default DayButton;
+export default DateButton;

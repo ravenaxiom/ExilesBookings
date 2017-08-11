@@ -25,6 +25,15 @@ module.exports = {
 
   module: {
     rules: [
+      // CSS files
+      {
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          'css-loader'
+        ]
+      },
+
       // SCSS files
       {
         test: /\.scss$/,

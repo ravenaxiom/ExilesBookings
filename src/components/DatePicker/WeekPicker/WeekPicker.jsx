@@ -1,17 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import WeekButton from './WeekButton/WeekButton.jsx';
+import {WEEKS} from './../../Common/Constants.jsx';
+import DateButton from './../DateButton/DateButton.jsx';
 
 import './WeekPicker.scss';
 
 const WeekPicker = ({}) => {
   return (
-    <div className="WeekPicker">
-      <div className="WeekPicker--previous-button">previous</div>
-      <WeekButton name="A" />
-      <WeekButton name="B" />
-      <div className="WeekPicker--next-button">next</div>
+    <div className="WeekPicker--container">
+      <div className="WeekPicker--previousButton">previous</div>
+
+      {WEEKS.map((day, index) => {
+        return <DateButton name={day} key={index} />;
+      })}
+
+      <div className="WeekPicker--nextButton">next</div>
     </div>
   );
 };

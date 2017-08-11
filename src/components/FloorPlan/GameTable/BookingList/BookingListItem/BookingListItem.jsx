@@ -5,7 +5,7 @@ import './BookingListItem.scss';
 
 const BookingListItem = ({time, owner, game}) => {
   return (
-    <div className="BookingListItem">
+    <div className="BookingListItem--container">
       <span className="BookingListItem--time">{time}</span>
       <span className="BookingListItem--owner">{owner}</span>
       <span className="BookingListItem--game">{game}</span>

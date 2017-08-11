@@ -3,8 +3,10 @@ import PropTypes from 'prop-types';
 
 import DatePicker from './DatePicker/DatePicker.jsx';
 import FloorPlan from './FloorPlan/FloorPlan.jsx';
-import Overlay from './Overlay/Overlay.jsx';
 import Footer from './Footer/Footer.jsx';
+import Overlay from './Overlay/Overlay.jsx';
+
+import './App.scss';
 
 const App = ({}) => {
   return (

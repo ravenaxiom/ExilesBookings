@@ -12,6 +12,7 @@ Table booking system for Exiles.
 * css-loader: Webpack plugin, loads CSS files
 * html-webpack-plugin: Webpack plugin, automatically adds built modules to the page
 * node-sass: Sass compiler in Node
+* normalize.css: Normalize browser styles to avoid cross browser issues
 * prop-types: React plugin to add type checking to react properties
 * react: Library for building the UI
 * react-dom: Bindings for react to the HTML dom

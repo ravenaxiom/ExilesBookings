@@ -1,5 +1,19 @@
 .BookingListItem {
-    padding:10px;
+  &--container {
+      display:flex; // set this on the container
+      flex-direction:row; // flexbox is always a single orientation of ordering. row is the default, and L->R
+      flex-wrap:nowrap; // set if objects should wrap around, nowrap is default
+
+      // shorthand for the two above
+      // flex-flow:row nowrap;
+
+      justify-content:space-around; // how the content should space out in the available container
+
+      align-items:baseline; // how items should align on the cross-axis (vertical in this case)
+
+      // how rows are aligned, not needed as we dont need flow
+      // align-content:flex-start; 
+  }
 
   &--time {
 
