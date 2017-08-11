@@ -7,7 +7,7 @@ import './DatePicker.scss';
 
 const DatePicker = ({}) => {
   return (
-    <div className="DatePicker">
+    <div className="DatePicker--container">
       <WeekPicker />
       <DayPicker />
     </div>

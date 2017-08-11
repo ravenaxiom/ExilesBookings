@@ -4,7 +4,7 @@ import './Overlay.scss';
 
 const Overlay = ({}) => {
   return (
-    <div className="Overlay">
+    <div className="Overlay--container">
       <div className="Overlay--close-button">X</div>
       <div className="Overlay--title">EDIT</div>
 

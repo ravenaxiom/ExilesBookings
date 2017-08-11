@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import {WEEKS} from './../../Common/Constants.jsx';
+
+import Button from './../../Common/Button/Button.jsx';
 import DateButton from './../DateButton/DateButton.jsx';
 
 import './WeekPicker.scss';
@@ -9,13 +11,13 @@ import './WeekPicker.scss';
 const WeekPicker = ({}) => {
   return (
     <div className="WeekPicker--container">
-      <div className="WeekPicker--previousButton">previous</div>
+      <Button value="<" />
 
       {WEEKS.map((day, index) => {
         return <DateButton name={day} key={index} />;
       })}
 
-      <div className="WeekPicker--nextButton">next</div>
+      <Button value=">" />
     </div>
   );
 };

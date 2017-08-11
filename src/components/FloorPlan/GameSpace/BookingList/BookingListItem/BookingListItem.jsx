@@ -9,7 +9,7 @@ const BookingListItem = ({time, owner, game}) => {
       <span className="BookingListItem--time">{time}</span>
       <span className="BookingListItem--owner">{owner}</span>
       <span className="BookingListItem--game">{game}</span>
-      <span className="BookingListItem--edit-button">EDIT</span>
+      <span className="BookingListItem--editButton">EDIT</span>
     </div>
   );
 };

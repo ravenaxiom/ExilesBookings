@@ -12,7 +12,7 @@
       align-items:baseline; // how items should align on the cross-axis (vertical in this case)
 
       // how rows are aligned, not needed as we dont need flow
-      // align-content:flex-start; 
+      // align-content:flex-start;
   }
 
   &--time {
@@ -27,7 +27,7 @@
 
   }
 
-  &--edit-button {
-
+  &--editButton {
+    cursor:pointer;
   }
 }

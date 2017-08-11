@@ -5,7 +5,7 @@ import './DateButton.scss';
 
 const DateButton = ({name}) => {
   return (
-    <div className="DateButton">
+    <div className="DateButton--container">
       {name}
     </div>
   );

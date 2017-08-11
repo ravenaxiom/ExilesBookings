@@ -7,7 +7,7 @@ import './Footer.scss';
 
 const Footer = ({firstGameTime, lastGameTime}) => {
   return (
-    <div className="Footer">
+    <div className="Footer--container">
       <Button value="Today" />
       <Button value="Print Timetable" />
 

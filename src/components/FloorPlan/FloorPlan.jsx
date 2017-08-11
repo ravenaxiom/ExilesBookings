@@ -1,15 +1,17 @@
 import React from 'react';
 
-import GameTable from './GameTable/GameTable.jsx';
+import {GAME_SPACES} from './../Common/Constants.jsx';
+
+import GameSpace from './GameSpace/GameSpace.jsx';
 
 import './FloorPlan.scss';
 
 const FloorPlan = ({}) => {
   return (
-    <div className="FloorPlan">
-      <GameTable name="Table A" />
-      <GameTable name="Table B" />
-      <GameTable name="Table C" />
+    <div className="FloorPlan--container">
+      {GAME_SPACES.map((space, index) => {
+        return <GameSpace name={space.name} key={index} />;
+      })}
     </div>
   );
 };
