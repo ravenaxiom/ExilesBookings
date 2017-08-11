@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import {DAYS} from './../../Common/Constants.jsx';
+import {DAYS} from './../../../constants/constants';
 import DateButton from './../DateButton/DateButton.jsx';
 
 import './DayPicker.scss';

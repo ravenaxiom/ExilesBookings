@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {GAME_SPACES} from './../Common/Constants.jsx';
+import {GAME_SPACES} from './../../constants/constants';
 
 import GameSpace from './GameSpace/GameSpace.jsx';
 

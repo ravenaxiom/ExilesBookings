@@ -2,9 +2,15 @@ import 'normalize.css';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {Provider} from 'react-redux';
 
 import App from './components/App.jsx';
+import buildStore from './store/store.js';
 
-console.log('index.jsx');
+const store = buildStore();
 
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById('app'));

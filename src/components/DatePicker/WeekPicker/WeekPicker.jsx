@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import {WEEKS} from './../../Common/Constants.jsx';
+import {WEEKS} from './../../../constants/constants';
 
 import Button from './../../Common/Button/Button.jsx';
 import DateButton from './../DateButton/DateButton.jsx';
