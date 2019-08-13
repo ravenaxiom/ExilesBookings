@@ -14,7 +14,7 @@ const DatePicker = ({}) => {
   );
 };
 
-DatePicker.PropTypes = {
+DatePicker.propTypes = {
 };
 
 export default DatePicker;

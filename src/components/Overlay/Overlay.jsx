@@ -2,8 +2,9 @@ import React from 'react';
 
 import './Overlay.scss';
 
-const Overlay = ({}) => {
+const Overlay = ({overlayOpen}) => {
   return (
+  
     <div className="Overlay--container">
       <div className="Overlay--close-button">X</div>
       <div className="Overlay--title">EDIT</div>
@@ -19,7 +20,8 @@ const Overlay = ({}) => {
   );
 };
 
-Overlay.PropTypes = {
+Overlay.propTypes = {
+  overlayOpen: PropTypes.boolean.isRequired
 };
 
 export default Overlay;

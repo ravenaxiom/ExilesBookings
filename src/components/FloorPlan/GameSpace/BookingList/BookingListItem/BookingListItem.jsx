@@ -14,7 +14,7 @@ const BookingListItem = ({time, owner, game}) => {
   );
 };
 
-BookingListItem.PropTypes = {
+BookingListItem.propTypes = {
   time: PropTypes.string.isRequired,
   owner: PropTypes.string.isRequired,
   game: PropTypes.string.isRequired

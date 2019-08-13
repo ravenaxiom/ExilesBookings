@@ -14,7 +14,7 @@ const BookingList = ({}) => {
   );
 };
 
-BookingList.PropTypes = {
+BookingList.propTypes = {
 };
 
 export default BookingList;

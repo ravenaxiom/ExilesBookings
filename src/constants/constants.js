@@ -1,4 +1,6 @@
 export const ACTIONS = {
+  OPEN_OVERLAY: 'OPEN_OVERLAY',
+
   MY_ACTION: 'MY_ACTION'
 };
 

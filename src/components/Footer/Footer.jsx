@@ -18,7 +18,7 @@ const Footer = ({firstGameTime, lastGameTime}) => {
   );
 };
 
-Footer.PropTypes = {
+Footer.propTypes = {
   firstGameTime: PropTypes.string,
   lastGameTime: PropTypes.string
 };

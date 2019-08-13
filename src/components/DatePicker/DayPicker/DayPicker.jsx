@@ -16,7 +16,7 @@ const DayPicker = ({}) => {
   );
 };
 
-DayPicker.PropTypes = {
+DayPicker.propTypes = {
 };
 
 export default DayPicker;

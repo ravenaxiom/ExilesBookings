@@ -22,7 +22,7 @@ const WeekPicker = ({}) => {
   );
 };
 
-WeekPicker.PropTypes = {
+WeekPicker.propTypes = {
 };
 
 export default WeekPicker;

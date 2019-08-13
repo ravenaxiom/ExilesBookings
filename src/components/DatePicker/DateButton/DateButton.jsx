@@ -11,7 +11,7 @@ const DateButton = ({name}) => {
   );
 };
 
-DateButton.PropTypes = {
+DateButton.propTypes = {
   name: PropTypes.string.isRequired
 };
 
